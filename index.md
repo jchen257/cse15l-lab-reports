@@ -8,4 +8,4 @@ First Way
 [Lab Report 1](testing.html)
 
 Second Way
-[Lab Report 1](https://jchen257.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
+[Lab Report 1](https://jchen257.github.io/cse15l-lab-reports/testing.html)
