@@ -59,7 +59,8 @@ class ScpCommand {
 
 * `scp` the file over to the remote server and now you can run commands without logging in
 
-![Capture 4s](https://user-images.githubusercontent.com/97651048/149584499-96fa93a6-fa7b-49d7-a5c1-7f1542ec1c9b.png)
+![InkedCapture 4s_LI](https://user-images.githubusercontent.com/97651048/149586102-5641d27f-f1ac-488a-bf1c-aaf81d3d77ce.jpg)
+
 
 
 
