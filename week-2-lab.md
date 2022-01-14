@@ -46,12 +46,19 @@ class ScpCommand {
 * Instead of having to enter a password every time to run commands to a remote server, you can instead generate ssh keys to skip this step
 * Follow the commands to set this up
 * Make a .ssh directory
+
 ![Capture 1](https://user-images.githubusercontent.com/97651048/149584240-fdd2f145-1261-4aa9-9bba-7e9662439f85.PNG)
+
 * Create a SSH Key from your computer 
+
 ![Capture 2](https://user-images.githubusercontent.com/97651048/149584135-0f7d95ac-ebbb-4a09-8b37-caa7743f14ce.PNG)
+
 * Run these commands if your Operating System is Windows
+
 ![Capture 3](https://user-images.githubusercontent.com/97651048/149584211-ece4ad85-7a07-4da9-9a49-cd94316a3290.PNG)
+
 * `scp` the file over to the remote server and now you can run commands without logging in
+
 ![Capture 4s](https://user-images.githubusercontent.com/97651048/149584499-96fa93a6-fa7b-49d7-a5c1-7f1542ec1c9b.png)
 
 
