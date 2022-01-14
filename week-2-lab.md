@@ -21,4 +21,7 @@ Experiment with the commands given to see what they do
 * `cd` - change directory
 * `ls -lat` - list files
 * `cd ~` - change directory to home folder
+* Heres an example
+* ![Image 3](https://user-images.githubusercontent.com/97651048/149446900-da2685c3-49bf-4bcf-b88f-f53afb7c513c.PNG)
+
 
