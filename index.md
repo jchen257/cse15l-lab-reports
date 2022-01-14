@@ -1,5 +1,5 @@
 # CSE15L Lab Reports
-## By Joshua Chen
+##  Joshua Chen
 ---
 
 - **Week 2 Lab Report**
