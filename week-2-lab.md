@@ -35,6 +35,6 @@ Heres an example
     }
   }
 ```
-* Run the file with `javac` and `java` to see what you get then move the file to the remote computer with `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`. After it transfers, try running it again to see if you get something similar to this
+* Run the file with `javac` and `java` to see what you get then move the file to the remote computer with `scp ScpCommand.java cs15lwi22zz@ieng6.ucsd.edu:~/` (Change the zz to the phrase in your account). After it transfers, try signing in to the remote server and running it again to see if you get something similar to this
 
 
