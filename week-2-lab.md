@@ -38,4 +38,16 @@ class ScpCommand {
 ```
 * Run the file with `javac` and `java` to see what you get then move the file to the remote computer with `scp ScpCommand.java cs15lwi22zz@ieng6.ucsd.edu:~/` (Change the zz to the phrase in your account). After it transfers, try signing in to the remote server and running it again to see if you get something similar to this
 
+---
+## Setting an SSH Key
+* Instead of having to enter a password every time to run commands to a remote server, you can instead generate ssh keys to skip this step
+* Follow the commands to set this up
+
+---
+## Optimizing Remote Running
+* Writing a command in quotes will allow the command to run directly on the remote server
+* Semicolons can also be used to run multiples commands in a singular line
+Heres an example
+
+
 
