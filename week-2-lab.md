@@ -28,7 +28,8 @@ Heres an example
 ## Moving Files With `scp`
 * `scp` is a command to move files from your computer to the remote computer
 * Use the provided code to create a java file named `ScpCommand.java`
-``` class ScpCommand {
+``` 
+class ScpCommand {
     public static void main(String[] args) {
       System.out.println("Hello my Operating System is " + System.getProperty("os.name"));
       System.out.println("My name is " + System.getProperty("user.name"));
