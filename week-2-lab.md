@@ -24,4 +24,17 @@ Experiment with the commands given to see what they do
 Heres an example
 ![Image 3](https://user-images.githubusercontent.com/97651048/149446900-da2685c3-49bf-4bcf-b88f-f53afb7c513c.PNG)
 
+---
+## Moving Files With `scp`
+* `scp` is a command to move files from your computer to the remote computer
+* Use the provided code to create a java file named `ScpCommand.java`
+``` class ScpCommand {
+    public static void main(String[] args) {
+      System.out.println("Hello my Operating System is " + System.getProperty("os.name"));
+      System.out.println("My name is " + System.getProperty("user.name"));
+    }
+  }
+```
+* Run the file with `javac` and `java` to see what you get then move the file to the remote computer with `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`. After it transfers, try running it again to see if you get something similar to this
+
 
