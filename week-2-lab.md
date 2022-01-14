@@ -12,4 +12,4 @@
 * Find your course-specifc account for CSE15L at [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 * Open a terminal in VSCode and enter ```ssh cs15lwi22zz@ieng6.ucsd.edu``` (Remember to replace `zz` with the phrase in your account) and type yes to connect to a server at the CSE Basement
 * After entering your password, output to the terminal should look like this
-![Image](Report_1_Images\Image 2.PNG)
+![Image](Report_1_Images\Image_2.PNG)
