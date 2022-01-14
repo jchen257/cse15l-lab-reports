@@ -67,7 +67,7 @@ class ScpCommand {
 ---
 ## Optimizing Remote Running
 * Writing a command in quotes will allow the command to run directly on the remote server like `"ls"`
-* Semicolons can also be used to run multiples commands in a singular line
+* Semicolons can also be used to run multiples commands in a singular line like `"javac ScpCommand.java; java ScpCommand"`
 * Heres an example
 
 ![Capture 5](https://user-images.githubusercontent.com/97651048/149587535-8798ab43-d4f3-49bb-a43d-6e1a6ea16b0b.PNG)
