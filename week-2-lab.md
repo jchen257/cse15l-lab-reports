@@ -14,3 +14,11 @@
 * Open a terminal in VSCode and enter ```ssh cs15lwi22zz@ieng6.ucsd.edu``` (Remember to replace `zz` with the phrase in your account) and type yes to connect to a server at the CSE Basement
 * After entering your password, output to the terminal should look like this
 ![Image 2](https://user-images.githubusercontent.com/97651048/149445831-4cf1a218-3124-4955-a68a-8561a1265e3a.PNG)
+
+---
+## Trying Some Commands
+Experiment with the commands given to see what they do
+* `cd` - change directory
+* `ls -lat` - list files
+* `cd ~` - change directory to home folder
+
