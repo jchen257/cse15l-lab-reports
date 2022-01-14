@@ -37,6 +37,9 @@ class ScpCommand {
   }
 ```
 * Run the file with `javac` and `java` to see what you get then move the file to the remote computer with `scp ScpCommand.java cs15lwi22zz@ieng6.ucsd.edu:~/` (Change the zz to the phrase in your account). After it transfers, try signing in to the remote server and running it again to see if you get something similar to this
+![Image 4](https://user-images.githubusercontent.com/97651048/149448776-6893ebd5-5627-4396-a0c2-84872e49fb6f.PNG)
+
+
 
 ---
 ## Setting an SSH Key
