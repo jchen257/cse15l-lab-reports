@@ -21,3 +21,18 @@
 * Symptom of Failure-Inducing Input
 ![output second](https://user-images.githubusercontent.com/97651048/151485131-4be48ba3-d188-4ec8-846a-95d5effca1b4.PNG)
 * When testing the third markdown file, the file had some text that was not a link, such as [bye world], [what], [hello], along with text in the markdown file which was the failure-inducing input. Due to the if statement that checked for brackets or parentheses being below the if statment that checked for images, this produced a bug which produced a symptom of the terminal outputting an Out of Bounds exception. This was solved by moving the if statement that checks for brackets and parentheses above the if statement which checks for images so there is no exception produced. 
+
+---
+
+## Third Code Change
+* Code Change
+![Third Code Change](https://user-images.githubusercontent.com/97651048/151488736-f5faae6e-455a-4f1a-83d5-1c50ef7cd6ba.PNG)
+* [Link to Failed Test File](https://github.com/jchen257/markdown-parse/blob/main/markdown4.md)
+* Picture Of Test File
+* ![Third Bug](https://user-images.githubusercontent.com/97651048/151489195-8a91163b-bcd1-4548-abd2-6d9bfb704cea.PNG)
+* Symptom of Failure-Inducing Input
+![output third](https://user-images.githubusercontent.com/97651048/151489211-3b7671c0-a073-46a0-9b6f-16d128382f84.PNG)
+* When testing the forth markdown file, the first line of the file contianed a image and text that followed in the next lines. The line containing the image was the failure-inducing input due to the else statement's position which was the bug. The else statement was between the if statements so the if statement to avoid images was not executed before the else statement which resulted in the test failing and thinking the image is a link. This bug was fixed by moving the else statement after both if statements.  
+
+
+
