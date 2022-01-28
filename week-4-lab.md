@@ -9,7 +9,9 @@
 * ![Capture1](https://user-images.githubusercontent.com/97651048/151448456-f55dc2ec-22a9-42e7-ae17-f20a64521e84.PNG)
 * Symptom of Failure-Inducing Input
 ![Capture2](https://user-images.githubusercontent.com/97651048/151448677-9e76df3f-ac8b-4121-a31b-8a2085f1cdec.PNG)
+
 * When running the tester file, the markdown file had an open bracket at the very beginning of the file, which was the failure-inducing input. When looking at line 23 of the code change, the code first had an if statement to check for any images in the markdown file. Because this if statement did not account for a bracket as the first character of the markdown file, it produced a bug that resulted in the symptom of the tester throwing an Out of Bounds exception. To fix this, adding a statement to check if there is an open bracket at the beginning of the file solved this bug.
+
 ---
 
 ## Second Code Change
