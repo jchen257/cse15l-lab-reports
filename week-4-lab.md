@@ -20,7 +20,7 @@
 * ![Second Bug](https://user-images.githubusercontent.com/97651048/151484852-0c834ac0-6933-4d3d-9eb3-183583492cf9.PNG)
 * Symptom of Failure-Inducing Input
 ![output second](https://user-images.githubusercontent.com/97651048/151485131-4be48ba3-d188-4ec8-846a-95d5effca1b4.PNG)
-* When testing the third markdown file, the file had some text that was not a link, such as [bye world], [what], [hello], along with text in the markdown file which was the failure-inducing input. Due to the if statement that checked for brackets or parentheses being below the if statement that checked for images, this produced a bug that produced a symptom of the terminal outputting an Out of Bounds exception. This was solved by moving the if statement that checks for brackets and parentheses above the if statement which checks for images so there is no exception produced. 
+* When testing the third markdown file, the file had some text that was not a link, such as [bye world], [what], [hello], along with text in the markdown file which was the failure-inducing input. Due to the if statement that checked for brackets or parentheses being below the if statement that checked for images, this produced a bug that produced the symptom of the terminal outputting an Out of Bounds exception. This was solved by moving the if statement that checks for brackets and parentheses above the if statement which checks for images so there is no exception produced. 
 
 ---
 
