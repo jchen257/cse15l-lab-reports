@@ -31,7 +31,7 @@
 * Picture Of Test File
 * ![Third Bug](https://user-images.githubusercontent.com/97651048/151489195-8a91163b-bcd1-4548-abd2-6d9bfb704cea.PNG)
 * Symptom of Failure-Inducing Input
-![output third](https://user-images.githubusercontent.com/97651048/151489211-3b7671c0-a073-46a0-9b6f-16d128382f84.PNG)
+![output third](https://user-images.githubusercontent.com/97651048/151490517-1d546f7d-03ce-4f89-a910-113bf99f3845.PNG)
 * When testing the fourth markdown file, the first line of the file contained an image and text that followed in the next lines. The line containing the image was the failure-inducing input due to the else statement's position which was the bug. The else statement was between the if statements so the if statement to avoid images was not executed before the else statement which resulted in the test failing and thinking the image is a link. This bug was fixed by moving the else statement after both if statements.  
 
 
