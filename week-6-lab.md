@@ -8,7 +8,7 @@
 * Change the host name to your desired nickname and save the changes
 * This nickname will be the phrase you will type to use commands like `ssh` or `scp`
 ![Capture1](https://user-images.githubusercontent.com/97651048/153681691-51361d83-2d90-428f-94e5-5f83a913886b.PNG)
-* After changing the host name, you can now use this nickname to ssh into your account without having to use course account
+* After changing the host name, you can now use this nickname to ssh into your account without having to use the course account
 ![Capture2](https://user-images.githubusercontent.com/97651048/153681773-118a8a4c-8e1f-4f7a-a694-7d02742da8c6.PNG)
 * This makes commands like `ssh` or `scp` easier since you do not need to remember the course account and just need the nickname. Here is an example of `scp` with the nickname
 ![Capture3](https://user-images.githubusercontent.com/97651048/153681876-6da36262-b62d-46a7-b296-c6f92d305d13.PNG)
