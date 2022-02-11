@@ -3,7 +3,7 @@
 ---
 ## Editing `.ssh/config` File 
 * Open `.ssh/config` in VSCode
-![Capture](https://user-images.githubusercontent.com/97651048/153681607-478b5083-6825-47f1-80c1-b2573b3792a2.PNG)
+* ![Capture](https://user-images.githubusercontent.com/97651048/153681607-478b5083-6825-47f1-80c1-b2573b3792a2.PNG)
 * Change the host name to your desired nickname and save the changes
 ![Capture1](https://user-images.githubusercontent.com/97651048/153681691-51361d83-2d90-428f-94e5-5f83a913886b.PNG)
 * After changing the host name, you can now use this nickname to ssh into your account without having to use course account
