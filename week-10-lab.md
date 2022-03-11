@@ -19,6 +19,7 @@
 ```
 [] (From https://spec.commonmark.org/dingus/)
 ```
+
 **Who's Correct and Describing the Bug**
 * In this test which was markdown file 577.md, my implementation of MarkdownParse was correct since it did not recognize the image to be a link while the implementation provided by the lab did recognize it as a link. To correct this bug in the lab-provided implementation, I would address the cases when the markdown file has an image in it. Since images and links look very similar in formatting, this is the reason why the lab implementation thought it was a link. To fix this, I would create an if statement that checks for ! which is what is different from images and links. I would code it similar to how I did it in my implementation
 
