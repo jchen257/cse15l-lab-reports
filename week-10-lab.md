@@ -30,6 +30,7 @@
                 continue;
             }
 ```
+
 **Where I Would Add It and What Should Be Fixed**
 * The while loop of the `getLinks` method should be fixed so I would add the if statement in there
 ```
