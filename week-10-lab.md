@@ -30,7 +30,7 @@
                 continue;
             }
 ```
-**Where I Would Add It and What Should Be Fixed
+**Where I Would Add It and What Should Be Fixed**
 * The while loop of the `getLinks` method should be fixed so I would add the if statment in there
 ```
 while(currentIndex < markdown.length()) {
@@ -87,7 +87,7 @@ while(currentIndex < markdown.length()) {
 **How to Fix The Bug**
 * I would add another if statement. In this if statement, I would check if the index of the parentheses is right after the index of the closing bracket to see if it is actually a link.
 
-**Where I Would Add It and What Should Be Fixed
+**Where I Would Add It and What Should Be Fixed**
 * The while loop of the `getLinks` method should be fixed so I would add another if statment in there
 ```
 while(currentIndex < markdown.length()) {
