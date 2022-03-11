@@ -30,6 +30,37 @@
                 continue;
             }
 ```
+**Where I Would Add It and What Should Be Fixed
+* The while loop of the `getLinks` method should be fixed so I would add the if statment in there
+```
+while(currentIndex < markdown.length()) {
+            int nextOpenBracket = markdown.indexOf("[", currentIndex);
+            int nextCodeBlock = markdown.indexOf("\n```");
+            if(nextCodeBlock < nextOpenBracket && nextCodeBlock != -1) {
+                int endOfCodeBlock = markdown.indexOf("\n```");
+                currentIndex = endOfCodeBlock + 1;
+                continue;
+            }
+            int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
+            int openParen = markdown.indexOf("(", nextCloseBracket);
+
+            // The close paren we need may not be the next one in the file
+            int closeParen = findCloseParen(markdown, openParen);
+            
+            if(nextOpenBracket == -1 || nextCloseBracket == -1
+                  || closeParen == -1 || openParen == -1) {
+                return toReturn;
+            }
+            String potentialLink = markdown.substring(openParen + 1, closeParen).trim();
+            if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
+                toReturn.add(potentialLink);
+                currentIndex = closeParen + 1;
+            }
+            else {
+                currentIndex = currentIndex + 1;
+            }
+        }
+```
 
 ## **Test Two**
 **Difference**
@@ -56,3 +87,34 @@
 **How to Fix The Bug**
 * I would add another if statement. In this if statement, I would check if the index of the parentheses is right after the index of the closing bracket to see if it is actually a link.
 
+**Where I Would Add It and What Should Be Fixed
+* The while loop of the `getLinks` method should be fixed so I would add another if statment in there
+```
+while(currentIndex < markdown.length()) {
+            int nextOpenBracket = markdown.indexOf("[", currentIndex);
+            int nextCodeBlock = markdown.indexOf("\n```");
+            if(nextCodeBlock < nextOpenBracket && nextCodeBlock != -1) {
+                int endOfCodeBlock = markdown.indexOf("\n```");
+                currentIndex = endOfCodeBlock + 1;
+                continue;
+            }
+            int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
+            int openParen = markdown.indexOf("(", nextCloseBracket);
+
+            // The close paren we need may not be the next one in the file
+            int closeParen = findCloseParen(markdown, openParen);
+            
+            if(nextOpenBracket == -1 || nextCloseBracket == -1
+                  || closeParen == -1 || openParen == -1) {
+                return toReturn;
+            }
+            String potentialLink = markdown.substring(openParen + 1, closeParen).trim();
+            if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
+                toReturn.add(potentialLink);
+                currentIndex = closeParen + 1;
+            }
+            else {
+                currentIndex = currentIndex + 1;
+            }
+        }
+```
