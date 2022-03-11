@@ -31,7 +31,7 @@
             }
 ```
 **Where I Would Add It and What Should Be Fixed**
-* The while loop of the `getLinks` method should be fixed so I would add the if statment in there
+* The while loop of the `getLinks` method should be fixed so I would add the if statement in there
 ```
 while(currentIndex < markdown.length()) {
             int nextOpenBracket = markdown.indexOf("[", currentIndex);
@@ -88,7 +88,7 @@ while(currentIndex < markdown.length()) {
 * I would add another if statement. In this if statement, I would check if the index of the parentheses is right after the index of the closing bracket to see if it is actually a link.
 
 **Where I Would Add It and What Should Be Fixed**
-* The while loop of the `getLinks` method should be fixed so I would add another if statment in there
+* The while loop of the `getLinks` method should be fixed so I would add another if statement in there
 ```
 while(currentIndex < markdown.length()) {
             int nextOpenBracket = markdown.indexOf("[", currentIndex);
